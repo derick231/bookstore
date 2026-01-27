@@ -5,7 +5,6 @@
 
 @theme {
   --font-ibm-plex-sans: "IBM Plex Sans", "sans-serif";
-  --font-bebas-neue: var(--bebas-neue);
 
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
@@ -143,7 +142,7 @@
   }
 
   .book-btn {
-    @apply bg-dark-600 mt-3 min-h-14 w-full font-bebas-neue text-base text-primary;
+    @apply bg-dark-600 mt-3 min-h-14 w-full  text-base text-primary;
   }
 
   /* Borrowed Book */
@@ -224,7 +223,7 @@
   }
 
   .progress {
-    @apply rounded-full bg-green-800 p-0.5 text-center font-bebas-neue text-[8px] font-bold leading-none text-light-100;
+    @apply rounded-full bg-green-800 p-0.5 text-center  text-[8px] font-bold leading-none text-light-100;
   }
 
   /* Search */
@@ -284,7 +283,7 @@
   }
 
   .not-found-btn {
-    @apply bg-primary font-bebas-neue min-w-[360px] mt-6 text-dark-100 text-xl hover:bg-primary/90 min-h-12;
+    @apply bg-primary  min-w-[360px] mt-6 text-dark-100 text-xl hover:bg-primary/90 min-h-12;
   }
 
   /* Pagination */

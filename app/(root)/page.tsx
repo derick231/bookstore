@@ -7,7 +7,7 @@ import Image from "next/image";
 const Home = () => {
   return (
     <>
-      <BookOverview {...sampleBooks[0]}/>
+      <BookOverview {...sampleBooks[7]}/>
       <BookList title="Latest Books"
       books={sampleBooks}
       containerClassName = "mt-28"
